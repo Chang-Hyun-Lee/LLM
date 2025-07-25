@@ -59,7 +59,7 @@ def agent(state):
     """
     print("---CALL AGENT---")
     messages = state["messages"]
-    model = ChatOpenAI(temperature=0, streaming=True, model=os.getenv("gpt-4o-mini"))
+    model = ChatOpenAI(temperature=0, streaming=True, model=os.getenv("OPENAI_DEFAULT_MODEL"))
 
     retriever_tool = get_retriever_tool()
 
@@ -91,7 +91,7 @@ def generate(state):
     prompt = hub.pull("rlm/rag-prompt")
 
     # LLM
-    llm = ChatOpenAI(temperature=0, model=os.getenv("gpt-4o-mini"), streaming=True)
+    llm = ChatOpenAI(temperature=0, model=os.getenv("OPENAI_DEFAULT_MODEL"), streaming=True)
 
     # Post-processing
     def format_docs(docs):
