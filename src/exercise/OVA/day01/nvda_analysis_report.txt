@@ -1,0 +1,51 @@
+
+================================================================================
+                    NVIDIA (NVDA) STOCK ANALYSIS REPORT
+                    Generated on: 2025-07-22 08:44:18
+================================================================================
+
+EXECUTIVE SUMMARY
+-----------------
+Current Price: $171.38
+12-Month Performance: 38.77%
+Risk Level (Volatility): 56.6%
+
+KEY METRICS
+-----------
+• 52-Week High: $174.25
+• 52-Week Low: $86.61
+• Average Daily Return: 0.195%
+• Annualized Volatility: 56.63%
+• Average Daily Volume: 263,532,803 shares
+• Data Points Analyzed: 250
+
+AI-POWERED ANALYSIS & OUTLOOK
+-----------------------------
+Error generating AI analysis. Raw data summary:
+
+        NVIDIA (NVDA) Stock Analysis Data - Past 12 Months:
+        
+        Key Metrics:
+        - Current Price: $171.38
+        - 52-Week High: $174.25
+        - 52-Week Low: $86.61
+        - Total Return: 38.77%
+        - Average Daily Return: 0.195%
+        - Annualized Volatility: 56.63%
+        - Average Daily Volume: 263,532,803 shares
+        - Analysis Date: 2025-07-22
+        
+        Additional Context:
+        - NVIDIA is a leading technology company specializing in graphics processing units (GPUs) and AI chips
+        - The company has been a major beneficiary of the AI boom and data center demand
+        - Stock performance should be considered in context of broader tech sector and AI industry trends
+        
+
+DISCLAIMER
+----------
+This analysis is for educational and informational purposes only. It should not be 
+considered as investment advice. Please consult with a qualified financial advisor 
+before making investment decisions.
+
+================================================================================
+        

@@ -1,0 +1,5 @@
+nano ~/.bashrc
+(파일 맨 끝에 추가)
+export OPENAI_API_KEY=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
+Ctrl+X로 종료하고 저장(Y), 파일명은 변경 필요 없음
+이후 vscode 실행

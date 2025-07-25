@@ -1,0 +1,34 @@
+    1  exit
+    2  ls
+    3  dir
+    4  nvidia-smi
+    5  nvidia
+    6  pwd
+    7  cd
+    8  pwd
+    9  mkdir ~/work
+   10  ls
+   11  pwd
+   12  cd ~/work
+   13  dir
+   14  ls
+   15  pwd
+   16  git config --global user.name "hanyun.kim"
+   17  git config --global user.email "tms2048.gmail.com"
+   18  git config --global --list
+   19  ssh-keygen
+   20  ls ~/.ssh
+   21  cat ~/.ssh/id_rsa.pub
+   22  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   23  ls
+   24  cd ko*
+   25  dir
+   26  cd src
+   27  dir
+   28  cd ex*
+   29  dir
+   30  cd hanyun.kim
+   31  dir
+   32  cd day01
+   33  history
+   34  history > h1.txt

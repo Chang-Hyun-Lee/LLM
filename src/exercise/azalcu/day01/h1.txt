@@ -1,0 +1,16 @@
+    1  wsl -l -v
+    2  mkdir ~/work
+    3  cd ~/work
+    4  git config --global user.name "zalcu"
+    5  git config --global user.email "zalcu@hanmail.net"
+    6  git config --global --list
+    7  ssh-keygen
+    8  cat ~/.ssh/id_rsa.pub
+    9  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   10  la
+   11  ls
+   12  ia
+   13  cd koshipa-llm-2025-1st/
+   14  cd src/exercise/zalcu/
+   15  cd day01/
+   16  history > h1.txt

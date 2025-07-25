@@ -1,0 +1,40 @@
+    1  wsl -l -v
+    2  exit
+    3  cd /mnt/c
+    4  cd ..
+    5  cd..
+    6  cd ..
+    7  wls
+    8  wsl
+    9  exiy
+   10  exit
+   11  nvidia-smi
+   12  pwd
+   13  cd
+   14  pwd
+   15  mkdir ~/work
+   16  cd ~/work
+   17  git config --global user.name "Jeongwon.Jo"
+   18  git config --global user.email "wonclimb95@gmail.com"
+   19  git config --global --list
+   20  ssh-keygen
+   21  ls ~/.ssh
+   22  cat ~/.ssh/id_ras.pub
+   23  cat ~/.ssh/id_rsa.pub
+   24  git clone git@github.com:weable-weable/koshipa-llm-2025-1st
+   25  ls
+   26  cd koshipa-llm-2025-1st/
+   27  ls
+   28  cd
+   29  cd koshipa-llm-2025-1st/
+   30  cd src
+   31  cd work/
+   32  cd koshipa-llm-2025-1st/
+   33  cd src/
+   34  cd exercise/
+   35  cd jeongwon
+   36  cd day01/
+   37  ls
+   38  git add hi.txt
+   39  git commit
+   40  history > hi.txt

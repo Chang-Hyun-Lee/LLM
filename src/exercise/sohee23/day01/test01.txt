@@ -1,0 +1,41 @@
+    1  cd/mnt/c
+    2  cd/ mnt /c
+    3  cd/mnt/c
+    4  exit
+    5  nvidia-smi
+    6  cd
+    7  pwd
+    8  mkdir ~/work
+    9  cd ~/work
+   10  ls
+   11  pwd
+   12  git config --global user.name "Sohee Kim"
+   13  git config --global user.email "sohee23.kim@gmail.com"
+   14  git config --global --list
+   15  ssh-keygen
+   16  ls ~/.ssh
+   17  cat ~/ssh/id_rsa.pub
+   18  cat ~/.ssh/id_ras.pub
+   19  cat ~/.ssh/id_ras
+   20  cat ~/.ssh/id_rsa.pub
+   21  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj1PiyYSSiCrJ0p9E66oSnFPqhl6CUolbKwZ0ybZL7vNr/aqtCpxnYWXnjFxPBE28gANIK+wQQYZgwIsarVQDvPDttrHkJaFsfw8ZRD31kA3F6Eub2S+2L7TIGCnpl6Z6ejYLYsuRf+DgIAydZPOkAw1aGkYR3PpJf5Xy3GOAi8BOu7iCqvCeQkt+mcFQB4/ZAlk189Lts0inrjGnEQIJ2roikzQV7VCU31gB7FHRj46IogMoozte9UlAQc59NKj+4U1B4+zZnFqjPbH9nclLRVAl7pEBUdqc5vPN5vB06ZqW59BHbzwIMK1FPeFqLJgLnJkkHGz3duAVaOen03DGPdsuIDlmTccJiWVqBmhhTcaHfCEX1oDFsavk9dqqHs+GG1hB2B7N7gcu/BezGiqe2IOkoQjU9byGtfd75tc7Bff3tLsaQZBdHNh9ZrBlZb+G0lgac7LnkSrPq3obNQhH1oH+itUoKX9tDgrjSLLGHfbqCdNMiopsN1Yv4F8fAr0s= ubuntu@DESKTOP-7CL6PC5
+   22  cat ~/.ssh/id_rsa.pub
+   23  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   24  cd src
+   25  cd ~/src
+   26  cd ~src
+   27  ls
+   28  cd ~src
+   29  cd koshipa-llm-2025-1st/
+   30  cd src
+   31  d excercise
+   32  cd excercise
+   33  cd ~excercise
+   34  cd exercise
+   35  ls
+   36  cd sohee23
+   37  ls
+   38  cd day01
+   39  history
+   40  ls
+   41  history > test01.txt

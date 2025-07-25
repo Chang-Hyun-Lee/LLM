@@ -1,0 +1,269 @@
+    1  ls
+    2  cd
+    3  -l -v
+    4  wsl -l -v
+    5  wls --terminate Ubuntu-22.04
+    6  apt
+    7  exit
+    8  cd
+    9  cd ~/mnt
+   10  ls
+   11  cd ~/삼성
+   12  ㅣㄴ
+   13  ls
+   14  exit
+   15  ls
+   16  mkdir ~/work
+   17  ㅊㅇ
+   18  cd
+   19  cd ~/mnt
+   20  cd mnt
+   21  ls
+   22  cd work
+   23  nvdia-smi
+   24  nvidia-smi
+   25  cd
+   26  ls
+   27  cd work
+   28  d
+   29  cd
+   30  pwd
+   31  cd work
+   32  wpd
+   33  pwd
+   34  git config --global user.name "eons"
+   35  git config --global user.email "eons1730@gmail.com"
+   36  git config --global --list 
+   37  ssh-keygen
+   38  ls
+   39  ls ~/.ssh
+   40  cat ~/.ssh/id_rsa.pub
+   41  cat ~/.ssh/id_rsa
+   42  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   43  ls
+   44  koshipa-llm-2025-1st/
+   45  cd koshipa-llm-2025-1st/
+   46  ls
+   47  cd doc
+   48  history
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd koshipa-llm-2025-1st/
+   53  ls
+   54  cd src
+   55  ls
+   56  cd exercise
+   57  ls
+   58  cd day01
+   59  cd
+   60  ls
+   61  cd work
+   62  exit
+   63  cd
+   64  ls
+   65  cd work
+   66  cleat
+   67  clear
+   68  pwd
+   69  cd
+   70  cd ~
+   71  cd work
+   72  ls
+   73  cd koshipa-llm-2025-1st/
+   74  ls
+   75  cd src
+   76  ls
+   77  cd exercise/
+   78  ls
+   79  cd ..
+   80  git config --global --list 
+   81  ls
+   82  cd
+   83  cd ~/work/koshipa-llm-2025-1st/src/exercise/
+   84  cd bardroh/
+   85  ls
+   86  day01
+   87  cd day01
+   88  cd ..
+   89  cd exercise
+   90  history
+   91  ls
+   92  mkdir -p eons/day01
+   93  cd eons/day01/
+   94  touch eons/day01/.txt
+   95  touch eons/day01/.keep
+   96  touch .keep
+   97  ls
+   98  git add eons.
+   99  git add eons/
+  100  cd ..
+  101  git add eons/
+  102  git commit -m "eons/day01"
+  103  git pull
+  104  git push
+  105  git pull
+  106  git config pull.rebase false
+  107  git pull
+  108  git push
+  109  git pull
+  110  cd
+  111  cd work/koshipa-llm-2025-1st/src/exercise/eons/day01/
+  112  history >h1.txt
+  113  git pull
+  114  ls
+  115  cd ..
+  116  git pull
+  117  git commit
+  118  git push
+  119  cd
+  120  sl
+  121  ls
+  122  cd work/koshipa-llm-2025-1st/src/exercise/
+  123  git push
+  124  git pull
+  125  ls
+  126  git add
+  127  git add eons/
+  128  git commit -m "eons/day01"
+  129  git push
+  130  cd eons/day01/
+  131  rm .keep
+  132  ls
+  133  cd
+  134  cd ~/work/koshipa-llm-2025-1st/src/exercise
+  135  git commit -m "day01"
+  136  git add eons/
+  137  git commit -m "day01"
+  138  git push
+  139  git pull
+  140  git push
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd doc
+  145  ls
+  146  sl
+  147  ls
+  148  cd
+  149  cd ~/work/koshipa-llm-2025-1st/
+  150  git pul
+  151  git pull
+  152  ls
+  153  cd doc
+  154  ls
+  155  git clone
+  156  cd
+  157  sudo su -root
+  158  ~?
+  159  cd ~/
+  160  cd ~/work
+  161  sudo su -root
+  162  cd
+  163  sudo su - root
+  164  cd
+  165  cd ~/work
+  166  cd koshipa-llm-2025-1st/src/exercise/
+  167  git pull
+  168  git add
+  169  git add eons/
+  170  git commit -m "day01"
+  171  git push
+  172  git pull
+  173  git push
+  174  cd
+  175  pip3 install openai
+  176  cd ~/work/koshipa-llm-2025-1st/
+  177  export OPENAI_API_KEY=<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>
+  178  echo $OPENAI_API_KEY
+  179  export OPENAI_API_KEY="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"
+  180  echo $OPENAI_API_KEY
+  181  code .
+  182  cd
+  183  ls
+  184  work
+  185  cd work
+  186  cd koshipa-llm-2025-1st/
+  187  code .
+  188  git pull
+  189  echo $OPENAI_API_KEY
+  190  cd
+  191  cd ~/work/koshipa-llm-2025-1st/
+  192  code .
+  193  cd
+  194  cd ~/work/koshipa-llm-2025-1st/
+  195  git pull
+  196  export OPENAI_API_KEY="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"
+  197  echo $OPENAI_API_KEY
+  198  code .
+  199  git pull
+  200  code .
+  201  export DATA_API_KEY="uA0bsB%2BOxHu6pZpko0EtNCcaxKIAT%2BQDVJGNlJ3UfmsgYkSnEWyZLhipifs87p0DSVniZ%2FMHKR4w1Fov00%2FSNg%3D%3D"
+  202  echo $DATA_API_KEY
+  203  git pull
+  204  git add
+  205  git add eons/
+  206  cd
+  207  cd ~/work/koshipa-llm-2025-1st/src/exercise/
+  208  git add eons/
+  209  git commit -m " "
+  210  git commit -m "."
+  211  git push
+  212  code .
+  213  ls
+  214  cd
+  215  cd ~/work/koshipa-llm-2025-1st/src/exercise/
+  216  cd ,,
+  217  cd ..
+  218  git pull
+  219  ls
+  220  cd src/
+  221  ls
+  222  cd exercise/
+  223  ls
+  224  cd ..
+  225  git pull
+  226  code .
+  227  cd src/
+  228  cd exercise/
+  229  ls
+  230  cd chat
+  231  python3
+  232  exit
+  233  cd
+  234  cd work
+  235  cd koshipa-llm-2025-1st/
+  236  cd src/
+  237  ls
+  238  아 왜 없는데 진짜
+  239  cd
+  240  sl
+  241  ls
+  242  sllsl
+  243  ls
+  244  cd work
+  245  cd koshipa-llm-2025-1st/
+  246  ls
+  247  cd doc
+  248  ls
+  249  l
+  250  ls
+  251  echo $OPEN_API_KEY
+  252  code.
+  253  code .
+  254  Tlqkf wlsWK sork whssk vlwhsgorkwnrh gk whwrksp wlsWK
+  255  dksl TLfka dlrjs dkslfkslRK zzz gk whwrkxsp wlsW
+  256  clear
+  257  cd
+  258  d
+  259  cd
+  260  clear
+  261  cd
+  262  cd ~/work/
+  263  cd koshipa-llm-2025-1st/
+  264  code .
+  265  git pull
+  266  cd src/exercise/eons
+  267  mkdir day02
+  268  cd day02
+  269  history >.txt

@@ -1,0 +1,40 @@
+    1  pwd
+    2  mkdir ~/work
+    3  ls
+    4  cd ~/work
+    5  pwd
+    6  git config --global user.name "Choulhong.An"
+    7  git config --global user.email "ach1733@naver.com"
+    8  git config --global --list
+    9  ssh-keygen
+   10  ls ~/.ssh
+   11  cat ~/.ssh/id_rsa.pub
+   12  clear
+   13  pwd
+   14  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   15  ls
+   16  git commit
+   17  ls
+   18  git pull
+   19  git clone https://[사용자 id]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   20  history
+   21  history >h1.txt
+   22  ls
+   23  git pull
+   24  git commit
+   25  git add h1.txt
+   26  git push
+   27  ls
+   28  git pull
+   29  git add
+   30  history
+   31  history > h1.txt
+   32  ls
+   33  git cone httgit clone https://[ach]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   34  git cone httgit clone https://[ach1733@naver.com]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   35  add history
+   36  git add history
+   37  gid commit  h1.txt
+   38  m/weable-weable/koshipa-llm-2025-1st.git
+   39  ls
+   40  history > h1.txt

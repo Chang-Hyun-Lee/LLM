@@ -1,0 +1,99 @@
+    1  cat /etc/*release*
+    2  wsl --terminate Ubuntu-22.04
+    3  exit
+    4  wsl --terminate Ubuntu-22.04
+    5  exit
+    6  nvidia-smi
+    7  cd
+    8  pwd
+    9  mkdir ~/work
+   10  cd ~/work
+   11  ls
+   12  pws
+   13  pwd
+   14  git config --global user.name "SUNG HOON KIM"
+   15  git config --global user.email "ksh87513@gmail.com"
+   16  git config --global --list
+   17  ssh-keygen
+   18  ls ~/.ssh
+   19  cat ~/.ssh/id_rsa.pub
+   20  git clone git@github.com:SH89SH/koshipa-llm-2025-1st
+   21  ls
+   22  cd koshipa-llm-2025-1st/
+   23  git clone git@github.com:SH89SH/koshipa-llm-2025-1st.git
+   24  git clone git@github.com:SH89SH/koshipa-llm-2025-1st
+   25  git clone git@github.com:weable-weable/koshipa-llm-2025-1st
+   26  history > h1.txt
+   27  ls
+   28  git add h1.txt
+   29  history
+   30  ls
+   31  git add h1.txt
+   32  git commit
+   33  cd koshipa-llm-2025-1st
+   34  ls
+   35  cd scr
+   36  ls
+   37  cd exercise
+   38  cd exercise/
+   39  ls HOON/
+   40  LS
+   41  ls
+   42  cd src
+   43  ls
+   44  cd exercise/
+   45  ls
+   46  cd HOON/
+   47  ls
+   48  cd DAY01
+   49  ls
+   50  cat text.txt
+   51  cat test.txt
+   52  ls
+   53  history
+   54  history > h1.txt
+   55  git add h1.txt
+   56  git commit
+   57  git commit -m
+   58  history > h1.txt
+   59  git add h1.txt
+   60  git commit
+   61  git commit -m "test"
+   62  git push
+   63  hisotry
+   64  history
+   65  pwd
+   66  git clone git@github.com:weable-weable/koshipa-llm-2025-1st
+   67  ls
+   68  history>h1.txt
+   69  h1.txt
+   70  vi h1.txt
+   71  git add h1.txt
+   72  git commit
+   73  git commit -m '1st commit'
+   74  git commit
+   75  git add h1.txt
+   76  git commit
+   77  git push
+   78  git add h1.txt
+   79  git commit
+   80  git pull
+   81  git add h1.txt
+   82  git commit
+   83  git add
+   84  git add all
+   85  git add h1.txt
+   86  git commit
+   87  git commi
+   88  git clone git@github.com:weable-weable/koshipa-llm-2025-1st
+   89  git add h1.txt
+   90  git commit
+   91  gir checkout h1.txt
+   92  git checkout h1.txt
+   93  history
+   94  history > h1.txt
+   95  git add h1.txt
+   96  git commit
+   97  git push
+   98  git pull
+   99  history > h1.txt

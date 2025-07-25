@@ -1,0 +1,73 @@
+# 실습 #1: Streamlit과 Assistant API를 이용하여 세션을 유지하는 멀티턴 챗봇을 만드시오. 단 Assistant는 미리 만들어서 id를 얻어둔다. (시간이 된다면) stream 기능을 추가한다.
+
+# asst_UIoILByMFhNJ0Q18C0m69eko
+
+import os
+import streamlit as st
+import openai as client
+import time
+
+from typing_extensions import override
+from openai import AssistantEventHandler
+ 
+class EventHandler(AssistantEventHandler):  
+    def __init__(self, message_placeholder, full_response):
+        self._message_placeholder = message_placeholder
+        self._full_response = ''
+        super().__init__()
+        
+    @override
+    def on_text_delta(self, delta, snapshot):
+        self._full_response += delta.value
+        self._message_placeholder.markdown(self._full_response + "▌")
+
+# Streamlit 앱 정의
+def main():
+    client.api_key = os.getenv("OPENAI_API_KEY")
+    assistant_id = "asst_UIoILByMFhNJ0Q18C0m69eko"
+    assitant = client.beta.assistants.retrieve(assistant_id)
+
+    st.title("Multi-turn Chatbot with Streamlit and OpenAI Assistant with retrieval")
+    st.chat_input(placeholder="대화를 입력해주세요.", key="chat_input")
+
+    thread = None
+    if "thread_id" not in st.session_state:
+        thread = client.beta.threads.create()
+        st.session_state["thread_id"] = thread.id
+    else:
+        thread_id = st.session_state["thread_id"]
+        thread = client.beta.threads.retrieve(thread_id)
+
+    thread_messages = client.beta.threads.messages.list(thread.id, order="asc")
+    for message in thread_messages.data:
+        with st.chat_message(message.role):
+            st.markdown(message.content[0].text.value)
+
+    if user_input := st.session_state["chat_input"]:
+        with st.chat_message("user"):
+            st.markdown(user_input)
+        
+        user_message = client.beta.threads.messages.create(
+            thread_id=thread.id,
+            role="user",
+            content=user_input
+        )        
+
+        with st.chat_message("assistant"):
+            message_placeholder = st.empty()
+            full_response = ''
+
+            with client.beta.threads.runs.stream(
+                thread_id=thread.id,
+                assistant_id=assistant_id, 
+                instructions=user_input,
+                event_handler=EventHandler(message_placeholder, full_response),
+            ) as stream:
+                stream.until_done()
+
+            thread_messages = client.beta.threads.messages.list(thread.id, order="asc")
+            message = thread_messages.data[-1].content[0].text.value
+            message_placeholder.markdown(message)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,30 @@
+    1  pwd
+    2  cd ~
+    3  pwd
+    4  mkdir ~/work
+    5  ls
+    6  cd ~/work
+    7* 
+    8  git config --global user.name "Bard K. Roh"
+    9  git config --global user.email "bardroh@weable.ai"
+   10  git config --global --list
+   11  ssh-keygen
+   12  ls ~/.ssh
+   13  cat ~/.ssh/id_rsa.pub 
+   14  clear
+   15  pwd
+   16  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   17  ls
+   18  cd koshipa-llm-2025-1st/
+   19  ls
+   20  cd src
+   21  cd exercise/
+   22  ls
+   23  cd bardroh/
+   24  ls
+   25  cd day01/
+   26  ls
+   27  clear
+   28  ls
+   29  history
+   30  history > h1.txt

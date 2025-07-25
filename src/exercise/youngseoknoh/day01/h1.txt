@@ -1,0 +1,35 @@
+    1  exit
+    2  cd /mnt/c
+    3  cd
+    4  pwd
+    5  mkdir ~/work
+    6  cd ~/work
+    7  ls
+    8  pwd
+    9  git config --global user.name "youngseoknoh"
+   10  git config --global user.email "raynoh0220@gmail.com"
+   11  git config --global --list
+   12  ssh-keygen
+   13  ls ~/.ssh
+   14  cat ~/.ssh/id_rsa.pub
+   15  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   16  ls
+   17  cd ~/koshipa-llm-2025-1st/src/exercise/
+   18  cd ~work/koshipa-llm-2025-1st/src/exercise/
+   19  cd ~/koshipa-llm-2025-1st/
+   20  ls
+   21  cd ~home/ubuntu/koshipa-llm-2025-1st/
+   22  cd ~/home/ubuntu/koshipa-llm-2025-1st/
+   23  cd ~/koshipa-llm-2025-1st/
+   24  cd koshipa-llm-2025-1st/
+   25  ls
+   26  cd src
+   27  ls
+   28  cd exercise
+   29  ls
+   30  cd youngseoknoh
+   31  ls
+   32  cd day01
+   33  ls
+   34  history
+   35  history>h1.txt

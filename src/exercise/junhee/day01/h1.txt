@@ -1,0 +1,46 @@
+    1  wsl -l -v
+    2  exit
+    3  cat /etc/relrease
+    4  cat /etc/relrease *
+    5  cat /etc/rlerease *
+    6  nvidia-smi
+    7  pwd
+    8  cd
+    9  pwd
+   10  mkdir ~/work
+   11  cd ~/work
+   12  ls
+   13  pwd
+   14  git config --global user.name "Junhee"
+   15  git config --global user.email "wnsgml7799@naver.com"
+   16  git config --global --list
+   17  ssh-keygen
+   18  ls ~/.ssh
+   19  cat ~/.ssh/id_rsa
+   20  cat ~/.ssh/id_rsa.pub
+   21  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   22  ls
+   23  cd
+   24  ls
+   25  cd ..
+   26  cd src
+   27  ls
+   28  cd /koshipa-llm-2025-1st
+   29  cd koshipa-llm-2025-1st
+   30  cd work
+   31  cd 
+   32  cd home
+   33  cd ..
+   34  cd work
+   35  cd ~/work
+   36  ls
+   37  cd koshipa-llm-2025-1st
+   38  cd src
+   39  cd exercise
+   40  ls
+   41  cd junhee
+   42  cls
+   43  ls
+   44  cd day01
+   45  historsododofofofo
+   46  history > h1.txt:ZZ

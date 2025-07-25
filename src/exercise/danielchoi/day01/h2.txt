@@ -1,0 +1,118 @@
+    1  wsl -l -v
+    2  cat /etc/*release*
+    3  clear
+    4  exit
+    5  cd
+    6  wsl -l
+    7  wsl
+    8  clear
+    9  exit
+   10  ls
+   11  cd ../
+   12  ls
+   13  cd ../
+   14  ls
+   15  ls -a
+   16  ls --a
+   17  ls -a
+   18  cd ../
+   19  ls -a
+   20  cd 
+   21  ls
+   22  ls -a
+   23  cd mnt/c
+   24  cd
+   25  cd mnt
+   26  cd /mnt
+   27  cd/c
+   28  cd /c
+   29  cd c
+   30  ls
+   31  ls -a
+   32  clear
+   33  cd 
+   34  nvidia-smi
+   35  cd /mnt
+   36  cd c
+   37  ls
+   38  cd 
+   39  pwd
+   40  ls
+   41  ls -a
+   42  mkdir ~/work
+   43  ls
+   44  cd ~/work
+   45  ls
+   46  pwd
+   47  cd
+   48  cd /work
+   49  cd work
+   50  ls
+   51  pwd
+   52  git confit --global user.name "danielchoi"
+   53  git config --global user.name "danielchoi"
+   54  git config --global user.email "cjh-gr@hanmail.net"
+   55  git config --global --list
+   56  ssh-keygen
+   57  git config --global --list
+   58  ssh-keygen
+   59  ;s ~/.ssh
+   60  ls ~/.ssh
+   61  cat ~/.ssh/id_rsa.pub
+   62  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   63  cd koshipa-llm-2025-1st/
+   64  ls
+   65  cd src
+   66  ls
+   67  cd exercise/
+   68  ls
+   69  cd danielchoi/
+   70  ls
+   71  cat day01
+   72  cd day01/
+   73  ls
+   74  cat test.txt
+   75  history
+   76  history > h1.txt
+   77  ls
+   78  cat h1.txt
+   79  ls
+   80  git add .
+   81  git commit
+   82  git push
+   83  git commit
+   84  git add .
+   85  git comit "2nd commit"
+   86  git commit "2nd commit"
+   87  git commit
+   88  cat h1
+   89  cat h1.txt
+   90  ls
+   91  git pull
+   92  git add .
+   93  git commit
+   94  cd ~/
+   95  pwd
+   96  ls
+   97  cd work/
+   98  ls
+   99  cd koshipa-llm-2025-1st/
+  100  ls
+  101  cd sr
+  102  cd src/
+  103  ls
+  104  cd exercise/
+  105  ls
+  106  cd danielchoi/
+  107  ls
+  108  cd day01/
+  109  ls
+  110  git pull
+  111  ls
+  112  cat h1
+  113  cat h1.txt
+  114  vim h1 "1"
+  115  cat h1.txt
+  116  h1
+  117  history
+  118  history > h2.txt

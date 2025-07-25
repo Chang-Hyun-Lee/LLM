@@ -1,0 +1,3 @@
+실습 #1: Streamlit과 Assistant API를 이용하여 세션을 유지하는 멀티턴 챗봇을 만드시오. 단 Assistant는 미리 만들어서 id를 얻어둔다. (시간이 된다면) stream 기능을 추가한다.
+
+asst_UIoILByMFhNJ0Q18C0m69eko

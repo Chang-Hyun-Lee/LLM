@@ -1,0 +1,95 @@
+    1  exit
+    2  clear
+    3  cat /etc/*release*
+    4  exit
+    5  ppwd
+    6  pwd
+    7  cd
+    8  pwd
+    9  mkdir ~/work
+   10  cd ~/work
+   11  cd
+   12  cd ~/work
+   13  git config --global user.name "JYH"
+   14  git config --global user.email "wpfh145@gmail.com"
+   15  git config --global --list
+   16  ssh-keygen
+   17  ls ~/.ssh
+   18  cat ~/.ssh/id_rsa.pub
+   19  ls ~/.ssh
+   20* cd koshi
+   21  ls
+   22  cd koshipa-llm-2025-1st
+   23  ls
+   24  cd src/
+   25  ;s
+   26  ls
+   27  cd exercise/
+   28  ls
+   29  cd wpfh145/
+   30  ls
+   31  cd day01/
+   32  ls
+   33  git add h1.txt
+   34  ls
+   35  git add test.txt
+   36  ls
+   37  test.txt
+   38  cat test.txt
+   39  ls
+   40  nano test.txt
+   41  git comit
+   42  git commit
+   43  git add test.txt
+   44  git commit
+   45  git status
+   46  git commit -m "test"
+   47  ls
+   48  test.txt
+   49  nano test.txt
+   50  git status
+   51  git add test.txt
+   52  git commit -m "커밋 메시지 작성"
+   53  git push origin main
+   54  git status
+   55  git push origin main
+   56  git pull --rebase origin main
+   57  clear
+   58  ls
+   59  cat test.txt
+   60  git add test.txt
+   61  ls
+   62  git add test.txt
+   63  git status
+   64  git push origin main
+   65  git status
+   66  ls
+   67  cat test.txt
+   68  nano test.txt
+   69  ls
+   70  cat test.txt
+   71  git status
+   72  git add
+   73  git add test.txt
+   74  git status
+   75  git commit -"m"
+   76  git commit -m"dd'
+gg
+   77  ls
+   78  git status
+   79  git commit -m "hi"
+   80  git push origin main
+   81  clear
+   82  ls
+   83  clear
+   84  ls
+   85  cat test.txt
+   86  nano test.txt 
+   87  cat test.txt 
+   88  git ?
+   89  git --help
+   90  git status
+   91  ls
+   92  cd day01
+   93  ls
+   94  history > h1.txt

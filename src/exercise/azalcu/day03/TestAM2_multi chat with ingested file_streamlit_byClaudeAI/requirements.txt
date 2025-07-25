@@ -1,0 +1,16 @@
+# requirements.txt - 필요한 패키지 목록
+
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+openai>=1.0.0
+faiss-cpu>=1.7.4
+pypdf>=3.17.0
+tiktoken>=0.5.0
+python-dotenv>=1.0.0
+
+# 추가 유용한 패키지들
+numpy>=1.24.0
+pandas>=2.0.0
+python-magic-bin>=0.4.14  # Windows용 파일 타입 감지

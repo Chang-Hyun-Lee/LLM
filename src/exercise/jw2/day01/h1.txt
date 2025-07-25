@@ -1,0 +1,35 @@
+    1  mkdir ~/work
+    2  cd ~/work
+    3  ls
+    4  pwd
+    5  git config --global user.name "jw2"
+    6  git config --global user.email "jinwon2926@gmail.com"
+    7  git config --global --list
+    8  ssh-keygen
+    9  is ~/.ssh
+   10  ssh-keygen
+   11  ls ~/.ssh
+   12  cat ~/.ssh/id_rsa.pub
+   13  ls ~/.ssh
+   14  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   15  ls
+   16  koshipa-llm-2025-1st
+   17  cd koshipa-llm-2025-1st
+   18  ls
+   19  cd
+   20  ls
+   21  cd work/
+   22  ls
+   23  cd koshipa-llm-2025-1st/
+   24  ls
+   25  cd src/
+   26  ls
+   27  cd exercise/
+   28  ls
+   29  cd jw2/
+   30  history
+   31  git commit 
+   32  ls
+   33  cd day01/
+   34  ls
+   35  history > h1.txt

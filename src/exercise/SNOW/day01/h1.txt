@@ -1,0 +1,50 @@
+    1  mkdir ~/work
+    2  cd ~/work
+    3  git config --global user.name "Jonghyeob Park"
+    4  git config --global user.email "jhpark1118@gmail.com"
+    5  git config --global --list
+    6  ssh-keygen
+    7  ls ~/.ssh
+    8  cat ~/.ssh.id_rsa.pub
+    9  cat ~/.ssh/id_rsa.pub
+   10  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   11  ls
+   12  cd doc
+   13  ;s
+   14  ls
+   15  cd doc
+   16  cd koshipa-llm-2025-1st
+   17  ls
+   18  cd doc
+   19  ls
+   20  cd ..
+   21  cd src
+   22  ls
+   23  cd excerside
+   24  cd exercise
+   25  ls
+   26  pwd
+   27  cd ~
+   28  cd work
+   29  pwd
+   30  git config --global --list
+   31  cd koshipa-llm-2025-1st/src/exercise
+   32  ls
+   33  cd snow
+   34  cd SNOW
+   35  cd ..
+   36  git comiit
+   37  git commit
+   38  cd src/exercise/SNOW
+   39  cd day01
+   40  history
+   41  git add
+   42  history >h1.txt
+   43  vi h1.txt
+   44  git add
+   45  git add h1.txt
+   46  git commit
+   47  git push
+   48  git pull
+   49  history
+   50  history >h1.txt

@@ -1,0 +1,49 @@
+    1  exit
+    2  nvidia-smi
+    3  cd
+    4  pwd
+    5  mkdir ~/work
+    6  cd ~/work
+    7  ls
+    8  pwd
+    9  git config --global user.name "rhohyongho"
+   10* git config 
+   11  git config --global --list
+   12  git config --global user.name "rohhyongho"
+   13  git config --global --list
+   14  git config --global user.name "rohkyongho"
+   15  git config --global --list
+   16  ssh-keygen
+   17  cat ~/.ssh/id_rsa.pub
+   18  git config --global user.name "RohKyongHo"
+   19  ssh-keygen
+   20  git config --global --list
+   21  cat ~/.ssh/id_rsa.pub
+   22  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   23  pwd
+   24  git config --global --list 
+   25  ssh-keygen
+   26  ls ~/.ssh
+   27  cat ~/.ssh/id_rsa.pub
+   28  pwd
+   29  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   30  ls
+   31  history
+   32  git add h1.txt
+   33  git commit
+   34  git add h1.txt
+   35  ls
+   36  git checkout
+   37  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   38  history -> h1.txt
+   39  ls
+   40  git add h1.txt
+   41  cd koshipa-llm-2025-1st/
+   42  ls
+   43  cd src/exercise/
+   44  ls
+   45  cd RKH
+   46  ls
+   47  cd day01/
+   48  ls
+   49  history > h1.txt

@@ -1,0 +1,112 @@
+    1  ls
+    2  cd
+    3  -l -v
+    4  wsl -l -v
+    5  wls --terminate Ubuntu-22.04
+    6  apt
+    7  exit
+    8  cd
+    9  cd ~/mnt
+   10  ls
+   11  cd ~/삼성
+   12  ㅣㄴ
+   13  ls
+   14  exit
+   15  ls
+   16  mkdir ~/work
+   17  ㅊㅇ
+   18  cd
+   19  cd ~/mnt
+   20  cd mnt
+   21  ls
+   22  cd work
+   23  nvdia-smi
+   24  nvidia-smi
+   25  cd
+   26  ls
+   27  cd work
+   28  d
+   29  cd
+   30  pwd
+   31  cd work
+   32  wpd
+   33  pwd
+   34  git config --global user.name "eons"
+   35  git config --global user.email "eons1730@gmail.com"
+   36  git config --global --list 
+   37  ssh-keygen
+   38  ls
+   39  ls ~/.ssh
+   40  cat ~/.ssh/id_rsa.pub
+   41  cat ~/.ssh/id_rsa
+   42  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   43  ls
+   44  koshipa-llm-2025-1st/
+   45  cd koshipa-llm-2025-1st/
+   46  ls
+   47  cd doc
+   48  history
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd koshipa-llm-2025-1st/
+   53  ls
+   54  cd src
+   55  ls
+   56  cd exercise
+   57  ls
+   58  cd day01
+   59  cd
+   60  ls
+   61  cd work
+   62  exit
+   63  cd
+   64  ls
+   65  cd work
+   66  cleat
+   67  clear
+   68  pwd
+   69  cd
+   70  cd ~
+   71  cd work
+   72  ls
+   73  cd koshipa-llm-2025-1st/
+   74  ls
+   75  cd src
+   76  ls
+   77  cd exercise/
+   78  ls
+   79  cd ..
+   80  git config --global --list 
+   81  ls
+   82  cd
+   83  cd ~/work/koshipa-llm-2025-1st/src/exercise/
+   84  cd bardroh/
+   85  ls
+   86  day01
+   87  cd day01
+   88  cd ..
+   89  cd exercise
+   90  history
+   91  ls
+   92  mkdir -p eons/day01
+   93  cd eons/day01/
+   94  touch eons/day01/.txt
+   95  touch eons/day01/.keep
+   96  touch .keep
+   97  ls
+   98  git add eons.
+   99  git add eons/
+  100  cd ..
+  101  git add eons/
+  102  git commit -m "eons/day01"
+  103  git pull
+  104  git push
+  105  git pull
+  106  git config pull.rebase false
+  107  git pull
+  108  git push
+  109  git pull
+  110  cd
+  111  cd work/koshipa-llm-2025-1st/src/exercise/eons/day01/
+  112  history >h1.txt

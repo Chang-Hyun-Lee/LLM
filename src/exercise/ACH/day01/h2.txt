@@ -1,0 +1,106 @@
+    1  pwd
+    2  mkdir ~/work
+    3  ls
+    4  cd ~/work
+    5  pwd
+    6  git config --global user.name "Choulhong.An"
+    7  git config --global user.email "ach1733@naver.com"
+    8  git config --global --list
+    9  ssh-keygen
+   10  ls ~/.ssh
+   11  cat ~/.ssh/id_rsa.pub
+   12  clear
+   13  pwd
+   14  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   15  ls
+   16  git commit
+   17  ls
+   18  git pull
+   19  git clone https://[사용자 id]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   20  history
+   21  history >h1.txt
+   22  ls
+   23  git pull
+   24  git commit
+   25  git add h1.txt
+   26  git push
+   27  ls
+   28  git pull
+   29  git add
+   30  history
+   31  history > h1.txt
+   32  ls
+   33  git cone httgit clone https://[ach]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   34  git cone httgit clone https://[ach1733@naver.com]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   35  add history
+   36  git add history
+   37  gid commit  h1.txt
+   38  m/weable-weable/koshipa-llm-2025-1st.git
+   39  ls
+   40  history > h1.txt
+   41  ls
+   42  git commit; h1.txt
+   43  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   44  git clone https://[ach]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   45  git pull ach/day-1 h1.txt
+   46  https clone
+   47  git add
+   48  git commit;h1.txt
+   49  git add;
+   50  git commit;
+   51  git push;
+   52  git clone https://[anchoulhong]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   53  git clone https://[]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   54  git pull  --no-rebase
+   55  git pull --no-rebse
+   56  git config--global-list
+   57  git confg--global user.name"anchoulhong"
+   58  git config --global user.name "anchoulhong"
+   59  git config --global--list
+   60  git config --global user.email "ach1733@naver.com"
+   61  git config --global --list
+   62  ssh-keygen
+   63  cat~/.ssh/id_rsa.pub
+   64  cat ~/.ssh/id_rsa.pub
+   65  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   66  git clone https://[anchoulhong]:[access token]@github.com/weable-weable/koshipa-llm-2025-1st.git
+   67  git add; git commit; git push
+   68  history
+   69  git add .
+   70  git commit -m"day01 실습내용 업로드"
+   71  ls
+   72  git commit -m"h1.txt"
+   73  git commit -m
+   74  git status
+   75  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   76  cd koshipa-llm-2025-1st/
+   77  l
+   78  ls
+   79  pwd
+   80  cd src
+   81  cd exercise/
+   82  ls
+   83  cd ACH
+   84  ls
+   85  cd day01/
+   86  l
+   87  ls
+   88  history
+   89  ls
+   90  ls ~
+   91  ls ~/work/
+   92  mv ~/work/h1.txt .
+   93  ls
+   94  git add h1.txt 
+   95  git commit
+   96  git pull
+   97  git config pull.rebase false
+   98  git pull
+   99  git push
+  100  git commit
+  101  ls
+  102  git commit
+  103  git add h1.txt
+  104  git commit
+  105  history
+  106  history>h2.txt

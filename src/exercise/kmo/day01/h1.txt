@@ -1,0 +1,81 @@
+    1  pwd
+    2  mkdir ~/work
+    3  cd ~/work
+    4  ls
+    5  git config --global user.name "myeongokwon"
+    6  git config --global user.email "kmoloveyou@naver.com"
+    7  git config --global --list
+    8  ssh-keygen
+    9  ls ~/.ssh
+   10  cat ~/.ssh/id_rsa
+   11  cat ~/.ssh/id_rsa.pub
+   12  git clone git@github.com:weable-weable/koshipa-lim-2025-1st.git
+   13  ls
+   14  ls ~/.ssh
+   15  ls
+   16  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   17  ls
+   18  cd koshipa-llm-2025-1st/
+   19  ls
+   20  cd ..
+   21  pwd
+   22  cd ..
+   23  cd work/
+   24  ls
+   25  exit
+   26  ls
+   27  cd ..
+   28  pwd
+   29  cd ..
+   30  pwd
+   31  ls
+   32  cd work
+   33  cd /home
+   34  ls
+   35  cd ubuntu/
+   36  ls
+   37  cd work/
+   38  ls
+   39  cd ..
+   40  ls
+   41  cd ..
+   42  pwd
+   43  cd wok
+   44  cd work
+   45  ls
+   46  pwd
+   47  ls
+   48  pwd
+   49  cd ubuntu/
+   50  dir
+   51  cd work
+   52  pwd
+   53  git config --global user.name "MyeongoKwon"
+   54  git config --global user.email "kmoloveyou@naver.com"
+   55  git config --global --list
+   56  ls ~/.ssh
+   57  cat ~/.ssh/id_rsa.pub
+   58  ls
+   59  cd koshipa-llm-2025-1st/
+   60  ls
+   61  cd ..
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd work
+   66  ls
+   67  cd koshipa-llm-2025-1st/
+   68  ls
+   69  cd src/
+   70  ls
+   71  history
+   72  ls
+   73  git commit
+   74  ls
+   75  cd exercise/
+   76  ls
+   77  cd kmo
+   78  ls
+   79  cd day01/
+   80  histor > h1.txt
+   81  history > h1.txt

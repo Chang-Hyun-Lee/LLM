@@ -1,0 +1,175 @@
+Installing, this may take a few minutes...
+Please create a default UNIX user account. The username does not need to match your Windows username.
+For more information visit: https://aka.ms/wslusers
+Enter new UNIX username: cmd.exe
+adduser: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+Enter new UNIX username: zalcu12
+New password:
+Retype new password:
+passwd: password updated successfully
+Installation successful!
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.153.1-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Mon Jul 21 09:27:40 KST 2025
+
+  System load:  0.08                Processes:             66
+  Usage of /:   0.1% of 1006.85GB   Users logged in:       0
+  Memory usage: 7%                  IPv4 address for eth0: 192.168.81.210
+  Swap usage:   0%
+
+
+This message is shown once a day. To disable it please create the
+/home/zalcu12/.hushlogin file.
+zalcu12@DESKTOP-FSFTQC1:~$ wsl-i-v
+wsl-i-v: command not found
+zalcu12@DESKTOP-FSFTQC1:~$ wsl-l-v
+wsl-l-v: command not found
+zalcu12@DESKTOP-FSFTQC1:~$ mkdir ~/work
+zalcu12@DESKTOP-FSFTQC1:~$ cd ~/work
+zalcu12@DESKTOP-FSFTQC1:~/work$ ls
+zalcu12@DESKTOP-FSFTQC1:~/work$ pwd
+/home/zalcu12/work
+zalcu12@DESKTOP-FSFTQC1:~/work$ git config --global user.name "Zalcu S. Han"
+zalcu12@DESKTOP-FSFTQC1:~/work$ git config --global user.email "zalcu@hanmail.net"
+zalcu12@DESKTOP-FSFTQC1:~/work$ git config --global --list
+user.name=Zalcu S. Han
+user.email=zalcu@hanmail.net
+zalcu12@DESKTOP-FSFTQC1:~/work$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/zalcu12/.ssh/id_rsa):
+Created directory '/home/zalcu12/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/zalcu12/.ssh/id_rsa
+Your public key has been saved in /home/zalcu12/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:h7QqC3ypO7QyJKNKE+3O5qGOw3QW507jPDzPt8i+0ik zalcu12@DESKTOP-FSFTQC1
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|        .        |
+|  .. . . o       |
+| . .+   S .      |
+|o++o = . .       |
+|*==+X + .        |
+|B.B=.Eoo..       |
+|=*=*. BBo..      |
++----[SHA256]-----+
+zalcu12@DESKTOP-FSFTQC1:~/work$ bashcat ~/.ssh/id_rsa.pub
+bashcat: command not found
+zalcu12@DESKTOP-FSFTQC1:~/work$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtreenFXrJLOWzF8M8trFVOxjSdvV7Pz19qq5vrpxUujrAQTbaxsJx3zCPru2xT1l0cxj3sj3pTQXkDfhRlpeAJ+BOtHn0oXu56MrFoKu1WAeee/C58J5VuvvQX93mwNVmsZkhMqXCaf2a8Acg8QoFIEv2hbaUZMuelixlhl5vf+zLZddtXrkRpLrQNOUXPIVVM0Lsy0PPL2g83vtbV+4t37Sp93gROVUe5PMsfQbrtI+4oEaMyp+bNVKiAgSLmPOgAiYrZgkuS6pWpjoXqerhLRJfywrGhrMR1r2uTr1nV7D+QGLQwRDCmiGXpl6hMvldnTXtc+EWa6rbyme8N7qKQnYYwnUdc31LhgGt8pAuQ3ad29a9tbOV/+2w2VgtqctueNo6fmrw8ls0TGpCYR5NPHqwES4moYUdL+HybHyRXQJpFQrWTrN45P6L2rR56UY7oKOxgpAedrYR7tmo8f0z+x4wY73Bn1RnC7rfAjZr4WYFC/0Oht30IysWhljZydM= zalcu12@DESKTOP-FSFTQC1
+zalcu12@DESKTOP-FSFTQC1:~/work$ ssh -T git@github.com
+The authenticity of host 'github.com (20.200.245.247)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi zalcu12! You've successfully authenticated, but GitHub does not provide shell access.
+zalcu12@DESKTOP-FSFTQC1:~/work$ git clone https://zalcu12:[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]@github.com/weable-weable/koshipa-llm-2025-1st.git
+Cloning into 'koshipa-llm-2025-1st'...
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/weable-weable/koshipa-llm-2025-1st.git/'
+zalcu12@DESKTOP-FSFTQC1:~/work$ git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+Cloning into 'koshipa-llm-2025-1st'...
+remote: Enumerating objects: 432, done.
+remote: Counting objects: 100% (135/135), done.
+remote: Compressing objects: 100% (73/73), done.
+remote: Total 432 (delta 46), reused 64 (delta 16), pack-reused 297 (from 1)
+Receiving objects: 100% (432/432), 8.85 MiB | 5.09 MiB/s, done.
+Resolving deltas: 100% (158/158), done.
+zalcu12@DESKTOP-FSFTQC1:~/work$ cd koshipa-llm-2025-1st/
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st$ la
+.git  README.md  doc  src
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st$ ls
+README.md  doc  src
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st$ cd src
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src$ ;s
+-bash: syntax error near unexpected token `;'
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src$ ls
+exercise
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src$ cd exercise/
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise$ ls
+ACH     JOON   LCH  RKH      bcmin       jeongwon  jw2  sgjang       soyeon        zalcu
+Daseul  JooYG  LHS  SNOW     danielchoi  jhpark    kmo  sohee23      wpfh145
+HOON    KMS    OVA  bardroh  hanyun.kim  junhee    pdy  sooyong.lim  youngseoknoh
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise$ cd zalcu/
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu$ LS
+LS: command not found
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu$ ls
+day01
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu$ cd day01/
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ ;ls
+-bash: syntax error near unexpected token `;'
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ ls
+temptest
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ history > h1.txt
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ ls
+h1.txt  temptest
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ git add h1.txt
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ git commit
+[main 04c642d] add history
+ 1 file changed, 30 insertions(+)
+ create mode 100644 src/exercise/zalcu/day01/h1.txt
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ git pull
+remote: Enumerating objects: 47, done.
+remote: Counting objects: 100% (39/39), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 26 (delta 10), reused 25 (delta 9), pack-reused 0 (from 0)
+Unpacking objects: 100% (26/26), 2.69 KiB | 458.00 KiB/s, done.
+From github.com:weable-weable/koshipa-llm-2025-1st
+   69f8f62..381c435  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$  git config pull.rebase false
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ git pull
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 10 (delta 4), reused 10 (delta 4), pack-reused 0 (from 0)
+Unpacking objects: 100% (10/10), 835 bytes | 208.00 KiB/s, done.
+From github.com:weable-weable/koshipa-llm-2025-1st
+   381c435..f45fb1a  main       -> origin/main
+Merge made by the 'ort' strategy.
+ src/exercise/LHS/day01/history1.txt          | 39 +++++++++++++++++++++++++++++++++++
+ src/exercise/junhee/day01/h1.txt             | 46 ++++++++++++++++++++++++++++++++++++++++++
+ src/exercise/soyeon/day01/{hi.txt => h1.txt} |  0
+ 3 files changed, 85 insertions(+)
+ create mode 100644 src/exercise/LHS/day01/history1.txt
+ create mode 100644 src/exercise/junhee/day01/h1.txt
+ rename src/exercise/soyeon/day01/{hi.txt => h1.txt} (100%)
+zalcu12@DESKTOP-FSFTQC1:~/work/koshipa-llm-2025-1st/src/exercise/zalcu/day01$ git push
+Enumerating objects: 21, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.21 KiB | 1.21 MiB/s, done.
+Total 11 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To github.com:weable-weable/koshipa-llm-2025-1st.git
+   f45fb1a..35ee284  main -> main

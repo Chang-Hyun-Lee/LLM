@@ -1,0 +1,39 @@
+    1  wsl -l -v
+    2  clear
+    3  ls
+    4  ls -a
+    5  cd .
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd ..
+   10  ls
+   11  navidia-smi
+   12  nvidia-smi
+   13  ls
+   14  cd home
+   15  ls
+   16  cd lhs
+   17  pwd
+   18  mkdir ~/work
+   19  cd work/
+   20  ls
+   21  pwd
+   22  git config --global user.name "Lee517-k"
+   23  git config --global user.email "harangs999@gmail.com"
+   24  git config --global --list
+   25  ssh-keygen
+   26  cat ~/.ssh/id_rsa.pub
+   27  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   28  ls
+   29  cd koshipa-llm-2025-1st/
+   30  ls
+   31  cd src
+   32  ls
+   33  cd exercise/
+   34  ls
+   35  cd LHS
+   36  ls
+   37  cd day01/
+   38  ls
+   39  history > history1.txt

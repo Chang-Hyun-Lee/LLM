@@ -1,0 +1,23 @@
+    1  sudo apt update
+    2  rlaalswl@6857
+    3  rlaalswl@7
+    4  sudo apt update
+    5  exit
+    6  sudo apt update
+    7  mkdir ~/work
+    8  yuntei@DESKTOP-UHA54EE:~$ cd ~/work
+    9  cd ~/work
+   10  git config --global user.name "Bard K. Roh"
+   11  git config --global user.email "bardroh@weable.ai"
+   12  git config --global --list
+   13  ssh-keygen
+   14  cat ~/.ssh/id_rsa.pub
+   15  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   16  rm -rf ~/.ssh/known_hosts
+   17  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   18  cd koshipa-llm-2025-1st
+   19  git status
+   20  cd ~/work/koshipa-llm-2025-1st/src/exercise/OVA/day01
+   21  ls
+   22  history
+   23  history > h1.txt

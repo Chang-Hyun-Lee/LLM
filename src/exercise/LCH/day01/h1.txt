@@ -1,0 +1,35 @@
+    1  wsl -l -v
+    2  wsl-l-v
+    3  cat /etc/*release*
+    4  exit
+    5  nvidia-smi
+    6  cd
+    7  pwd
+    8  mkdir ~/work
+    9  cd ~/work
+   10  ls
+   11  pwd
+   12  git config --global user.name "Chang Hyun Lee"
+   13  git config --global user.email "lch0104@naver.com"
+   14  config --global --list
+   15  git config --global --list
+   16  ssh-keygen
+   17  ls ~/.ssh
+   18  cat ~/.ssh/id_rsa.pub
+   19  git clone git@github.com:weable-weable/koshipa-llm-2025-1st.git
+   20  ls
+   21  cd koshipa-llm-2025-1st/
+   22  ls
+   23  cd src
+   24  cd ..
+   25  cd src/exercise/LCH/day01
+   26  cd src
+   27  cd koshipa-llm-2025-1st/
+   28  cd src
+   29  cd exericse
+   30  cd exercise
+   31  cd LCH/day01
+   32  ls
+   33  git pull
+   34  history
+   35  history > h1.txt
