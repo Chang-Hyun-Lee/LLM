@@ -1,31 +1,41 @@
-# 실습: LangChain으로 만들어진 pdf 답변 어플리케이션을 streamlit으로 구현하시오. 
-# 예전에 만든 ingest.py로 인덱스하시오. (시간이 된다면) 파일 업로드 기능을 추가한다. 
+# 실습: Streamlit과 Assistant API를 이용하여 세션을 유지하는 멀티턴 챗봇을 만드시오. 단 Assistant는 미리 만들어서 id를 얻어둔다. (시간이 된다면) stream 기능을 추가한다.
+
+# assistants_id = asst_UIoILByMFhNJ0Q18C0m69eko
+
 
 import streamlit as st
-import random
 import time
 import os
 import openai
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain_openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-
-embeddings = OpenAIEmbeddings()
-@st.cache_resource
-def get_db():
-   return FAISS.load_local("shower", embeddings = embeddings, allow_dangerous_deserialization = True)
+from openai import OpenAI
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
+assistant_id = "asst_UIoILByMFhNJ0Q18C0m69eko"
 
-st.title("소나기 ChatBot")
+client = OpenAI()
 
-# 채팅 초기 화면 출력 
-if "messages" not in st.session_state:
-    content = "당신은 친절한 어시스턴트입니다. 주어진 데이터를 보고 사용자에 친절하게 대답하세요.\n"
-    st.session_state.messages = [
-        {"role": "system", "content": content},
-        {"role": "assistant", "content": "안녕! 무엇이 궁금해?"}
-    ]
+
+
+assistant = client.beta.assistants.create(
+    name = "수학 선생님",
+    instructions = "당신은 친절한 수학선생님입니다. 사용자가 질문하는 수학문제에 대답하기 위해 code를 작성하고 실행하세요.",
+    tools = [{"type": "code_interpreter"}],
+    model = "gpt-4o-mini"
+)
+
+
+
+thread = None
+if "thread_id" not in st.session_state:
+    thread = client.beta.threads.create()
+    st.session_state["thread_id"] = thread.id
+else:
+    thread_id = st.session_state["thread_id"]
+    thread = client.beta.threads.retrieve(thread_id)
+
+
+
+
 
 for message in st.session_state.messages[1:]:
     if(message["role"] != "system"):
@@ -35,6 +45,12 @@ for message in st.session_state.messages[1:]:
 
 # 사용자 입력 받기
 if prompt := st.chat_input("텍스트를 입력하고 엔터를 치거나 이미지를 업로드하세요"):
+
+    message = client.beta.threads.messages.create(
+        thread_id = thread.id,
+        role = "user",
+        content = prompt  
+    )   
     # 사용자의 입력을 추가하기
     st.session_state.messages.append({"role": "user", "content": prompt})
     # 사용자의 입력을 보여주기

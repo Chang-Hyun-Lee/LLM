@@ -4,6 +4,7 @@ from langchain_openai import OpenAIEmbeddings
 #embeddings = HuggingFaceEmbeddings()
 embeddings = OpenAIEmbeddings()
 
+# Facebook AI Research에서 개발한 벡터 유사도 검색 및 클러스터링 라이브러리
 from langchain.vectorstores import FAISS
 db = FAISS.load_local("shower", embeddings=embeddings, allow_dangerous_deserialization=True)
 

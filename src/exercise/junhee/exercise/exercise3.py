@@ -8,6 +8,9 @@ import openai
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+
+st.title("멋쟁이 ChatBot")
+
 # 채팅 초기 화면 출력 
 if "messages" not in st.session_state:
     st.session_state.messages = [
@@ -37,6 +40,7 @@ if prompt := st.chat_input("텍스트를 입력하고 엔터를 치거나 이미
         assistant_response = openai.ChatCompletion.create(
             model = "gpt-4o",
             messages = st.session_state.messages,
+            temperature = 0.7,
             stream = True
         )
         

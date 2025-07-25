@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import pandas as pd
 from pykrx import stock
+import requests
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import AgentExecutor, create_openai_functions_agent
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -33,6 +34,23 @@ def load_all_ohlcv(start_date: str, end_date: str) -> pd.DataFrame:
     result_df = pd.concat(all_data)
     result_df.reset_index(inplace=True)
     return result_df
+
+def search_naver_local(query, count):
+    encText = urllib.parse.quote(query)
+    url = f"https://openapi.naver.com/v1/search/local.json?query={encText}&display={count}"
+    request = urllib.request.Request(url)
+    request.add_header("X-Naver-Client-Id", client_id)
+    request.add_header("X-Naver-Client-Secret", client_secret)
+    response = urllib.request.urlopen(request)
+    rescode = response.getcode()
+
+    if rescode == 200:
+        response_body = response.read()
+        data = json.loads(response_body.decode('utf-8'))
+        return data.get("items", [])
+    else:
+        return []
+
 
 # 🔁 LlamaIndex 인덱스 생성 + 캐싱
 @st.cache_resource(show_spinner="🔍 인덱스를 만드는 중입니다...")
